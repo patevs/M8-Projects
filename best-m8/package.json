@@ -1,0 +1,43 @@
+{
+  "name": "best-m8",
+  "version": "0.0.3",
+  "description": "Best M8 Website",
+  "author": "Patrick Evans",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patevs/best-m8.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patevs/best-m8/issues"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --passWithNoTests",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "evergreen-ui": "^4.8.0",
+    "firebase": "^5.6.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.1",
+    "reactstrap": "^6.5.0",
+    "recompose": "^0.30.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
