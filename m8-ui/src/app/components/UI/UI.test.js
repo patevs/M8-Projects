@@ -1,16 +1,19 @@
 
 /*
-  src/App/App.test.js
+  src/app/components/UI/UI.test.js
+  UI component tests
 */
 
-// imports
+// react and react-dom libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+
+// UI component
+import UI from './UI';
 
 // test cases
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<UI />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
